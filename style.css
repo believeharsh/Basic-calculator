@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid black;
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/006/634/891/original/cartoon-a-boy-waving-hand-free-vector.jpg");
+    background-position: left 25px 50px; */
+    background-image: url("https://png.pngtree.com/background/20211215/original/pngtree-cartoon-satellite-ruler-calculator-linear-education-background-picture-image_1458755.jpg");
+   
+    
+}
+
+.container {
+ 
+    width: 1000px;
+    height: 575px;
+    display: flex;
+
+    
+}
+.image img {
+    background-size: contain;
+    width: 1250px;
+    height: 700px;
+    background-repeat: no-repeat;
+    margin-top: -85px;
+}
+
+.elments-container{
+    height: 475px;
+    height: 411px;
+    width: 429px;
+    border: solid black;
+    border-radius: 10px;
+    background-color: #afafbd;
+    margin: 25px 0px 0px 420px;
+}
+
+.input{
+    width: 406px;
+    margin: 10px 0px 5px 5px;
+    height: 69px;
+    color: aliceblue;
+    border-radius: 0%;
+    font-size: 25px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    box-shadow: 4px 4px black;
+    background-color: black;
+    opacity: 0.8;
+}
+.operator{
+    width: 96px;
+    height: 52px;
+    margin: 5px;
+    float: left;
+    border-radius: 12%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #e8d61c;
+    color: black;
+    cursor: pointer;
+    box-shadow: 4px 4px;
+} 
+
+.operator :hover {
+    font-size: 30px;
+
+}
+
