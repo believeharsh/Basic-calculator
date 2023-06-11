@@ -7,9 +7,12 @@ Array.from(buttons).forEach((button)=>{
       document.querySelector('.input').value = string;
     //   console.log(string)
     }
-    else if(e.target.innerHTML == 'C'){
+    else if(e.target.innerHTML == 'CA'){
       string = ""
       document.querySelector('.input').value = string;
+    }
+    else if(e.target.innerHTML == 'C') {
+     string = document.querySelector('.input').value.toString().slice(0 ,-1)
     }
     else{ 
     console.log(e.target)
@@ -18,3 +21,4 @@ Array.from(buttons).forEach((button)=>{
       }
   })
 })
+document.getElementById('learn')
