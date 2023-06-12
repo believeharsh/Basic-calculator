@@ -5,18 +5,18 @@ body {
     /* margin: 2px;
     padding: 2px;
     border: 1px solid black; */
- 
+
     background-image: url("https://www.toolcalculator.com/images/person.png");
     /* position: fixed; */
     background-repeat: no-repeat;
     background-size: contain;
-    
+
     /* opacity: 0.8; */
- 
+
 }
 
 .container {
-  display: flex;
+    display: flex;
 }
 
 /* .image img {
@@ -52,6 +52,21 @@ body {
     background-color: black;
     opacity: 0.8;
 }
+#divide-opr, #operator-multiply , #operator-minus , #operator-plus , #operator-is-equl-to{
+    width: 96px;
+    height: 52px;
+    margin: 5px;
+    float: left;
+    border-radius: 12%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #e8d61c;
+    color: black;
+    cursor: pointer;
+    box-shadow: 4px 4px;
+}
 
 .operator {
     width: 96px;
@@ -69,7 +84,7 @@ body {
     box-shadow: 4px 4px;
 }
 
-.operator-font{
+.operator-font {
     width: 96px;
     height: 52px;
     margin: 5px;
@@ -86,13 +101,15 @@ body {
 }
 
 .operator:hover {
-    font-size: 28px ;
-     font-weight: bolder; 
+    font-size: 28px;
+    font-weight: bolder;
 }
-.operator-font :hover{
+
+.operator-font :hover {
     font-size: 30px;
     /* font-weight: 400; */
 }
+
 .text {
     /* font-style: italic; */
     font-weight: bold;
