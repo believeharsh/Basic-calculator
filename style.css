@@ -2,41 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=Ubuntu:wght@300&display=swap');
 
 body {
-    /* margin: 2px;
-    padding: 2px;
-    border: 1px solid black; */
-
-    background-image: url("https://www.toolcalculator.com/images/person.png");
-    /* position: fixed; */
-    background-repeat: no-repeat;
-    background-size: contain;
-
-    /* opacity: 0.8; */
+    margin: 0px;
+    padding: 0px;
 
 }
 
 .container {
     display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top left, #e2d9d9, #90c6f4);
 }
 
-/* .image img {
-    background-size: contain;
-     width: 1250px;
-    height: 700px;
-    background-repeat: no-repeat;
-    margin-top: -85px;
-}  */
+
 
 .elments-container {
-    align-items: center;
-    justify-content: center;
-    height: 475px;
-    height: 411px;
-    width: 429px;
+    width: 428px;
+    height: 410px;
     border: solid black;
     border-radius: 10px;
     background-color: #afafbd;
-    margin: 25px -77px 0px 418px;
+    margin: 5px 0px 5px 0px;
+    box-shadow: 2px 2px 5px #030404;
 }
 
 .input {
@@ -52,7 +41,12 @@ body {
     background-color: black;
     opacity: 0.8;
 }
-#divide-opr, #operator-multiply , #operator-minus , #operator-plus , #operator-is-equl-to{
+
+#divide-opr,
+#operator-multiply,
+#operator-minus,
+#operator-plus,
+#operator-is-equl-to {
     width: 96px;
     height: 52px;
     margin: 5px;
@@ -111,10 +105,17 @@ body {
 }
 
 .text {
-    /* font-style: italic; */
+ 
     font-weight: bold;
     font-size: 14px;
     margin: 77px 0px 0px -15px;
     font-family: 'Cedarville Cursive', 'cursive';
     font-style: italic;
+}
+
+@media (max-width:479px) {
+    .elments-container {
+        width: 214px ;
+        height: 400px;
+    }
 }
